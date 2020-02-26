@@ -17,8 +17,8 @@ else
 end
 
 puts "Given 2, it should return 56.699"
-answer = ounces_to_grams(1)
-if answer == 28.3495
+answer = ounces_to_grams(2)
+if answer == 56.699
   puts "Passed!"
 else
   puts "Test failed: got #{answer} instead"
